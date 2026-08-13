@@ -6,8 +6,8 @@
 int main() {
   // imprime algumas mensagens na tela
   printf("Mackenzie - FCI\n");
-  printf("Algoritmos e ");
-  printf("Prog. II\n");
+  printf("Ciência da Competição\n");
+  printf("Algoritmos e Programação II\n");
   printf("Turma 02P11\n");
 
   return 0;
