@@ -1,18 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
-    float salarioBruto;
-    float salarioMin;
+    // Adicionei esta linha para os caracteres especiais aparecerem no meu terminal
+    system("chcp 65001 > nul");
+
+    float salarioBruto, salarioMin, dif;
 
     printf("Valor do salário mínimo: ");
-    scanf("%f", salarioMin);
+    scanf("%f", &salarioMin);
 
     printf("\nValor do salário bruto: ");
-    scanf("%f", salarioBruto);
+    scanf("%f", &salarioBruto);
 
-    float dif = salarioBruto / salarioMin;
+    dif = salarioBruto / salarioMin;
 
-    printf("\n%f", dif);
+    printf("\nQuantidade de salários mínimos: %.2f", dif);
 
     return 0;
 }
